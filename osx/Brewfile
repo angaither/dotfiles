@@ -1,0 +1,21 @@
+
+# Install Cask
+install brew-cask
+
+
+# Install dev things
+install hub # Github command line tool
+install node
+install wget 
+
+# Install Apps
+brew cask install google-chrome
+brew cask install adium
+brew cask install alfred
+brew cask install atom
+brew cask install iterm2
+brew cask install onepassword
+brew cask install rdio
+brew cask install sequel-pro
+brew cask install caffeine
+brew cask install vagrant
