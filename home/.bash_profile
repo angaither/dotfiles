@@ -28,6 +28,7 @@ alias gb='git branch'
 alias gs='git status'
 alias gp='git push'
 alias gpu='git push -u origin'
+alias reset='git reset HEAD --hard'
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
