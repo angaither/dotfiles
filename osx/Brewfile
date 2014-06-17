@@ -7,6 +7,7 @@ install brew-cask
 install hub # Github command line tool
 install node
 install wget 
+install tmux
 
 # Install Apps
 brew cask install google-chrome
