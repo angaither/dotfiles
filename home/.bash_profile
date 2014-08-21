@@ -18,9 +18,7 @@ fi
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/local/mysql/bin:$PATH"
 alias profile='vim ~/.bash_profile'
-alias cdds='cd /vagrant/html/profiles/dosomething'
 alias copyprof='pbcopy < ~/.bash_profile'
-alias hubpr='hub pull-request -b DoSomething:dev'
 alias rc='vim ~/.bashrc'
 alias ..='cd ..'
 alias reload='. ~/.bash_profile .~/.bashrc'
