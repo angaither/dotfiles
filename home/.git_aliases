@@ -1,0 +1,11 @@
+# git things!
+alias murder='git branch --merged | grep -v "\*" | grep -v  "master\|dev" | xargs -n 1 git branch -d'
+alias gc='git commit -v'
+alias gcob='git checkout -b'
+alias gb='git branch'
+alias gs='git status'
+alias gl='git log --oneline --pretty'
+alias gp='git pull'
+alias gph='git push'
+alias gpu='git push -u origin'
+alias reset='git reset HEAD --hard'
