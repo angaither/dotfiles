@@ -7,11 +7,12 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
+# Load work-specific alias/shortcuts/variables
 if [ -f ~/.ds_config ]; then
   . ~/.ds_config
 fi
 
-
+# Git things
 if [ -f ~/.git_aliases ]; then
   . ~/.git_aliases
 fi

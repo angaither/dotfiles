@@ -1,4 +1,6 @@
 dotfiles
 ========
-Oh, hai.
-Dotfiles castle managed with [homesick](https://github.com/technicalpickles/homesick)
+Dotfiles are special and magical things. 
+(sometimes)
+
+Managed with [homesick](https://github.com/technicalpickles/homesick)
