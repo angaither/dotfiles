@@ -24,6 +24,7 @@ alias rc='vim ~/.bashrc'
 alias ..='cd ..'
 alias reload='. ~/.bash_profile .~/.bashrc'
 alias vaggy='vagrant'
+alias c='clear'
 
 # Clean up dem files.
 alias unturd='find . \( -name '\''.tnatr*'\'' -o -name '\''*tnatr;*'\'' -o -name '\''.DS_Store'\'' -o -name '\''._*'\'' -o -name '\''.nfs*F'\'' \) -print -exec rm -Rf {} \;'
