@@ -1,13 +1,15 @@
 
 # Install Cask
-install brew-cask
+brew install brew-cask
 
 
 # Install dev things
-install hub # Github command line tool
-install node
-install wget 
-install tmux
+brew install git
+brew install hub # Github command line tool
+brew install node
+brew install wge 
+brew install tmux
+brew install ack
 
 # Install Apps
 brew cask install google-chrome
@@ -16,6 +18,7 @@ brew cask install alfred
 brew cask install atom
 brew cask install iterm2
 brew cask install onepassword
+brew cask install sublime-text
 brew cask install rdio
 brew cask install sequel-pro
 brew cask install caffeine

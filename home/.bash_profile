@@ -17,7 +17,7 @@ if [ -f ~/.git_aliases ]; then
   . ~/.git_aliases
 fi
 
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/local/mysql/bin:$PATH"
+export PATH="/usr/localphp5/bin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/local/mysql/bin:$PATH"
 alias profile='vim ~/.bash_profile'
 alias copyprof='pbcopy < ~/.bash_profile'
 alias rc='vim ~/.bashrc'
