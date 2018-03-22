@@ -1,19 +1,19 @@
 
 # Install Cask
-brew install brew-cask
-
+tap "caskroom/cask"
 
 # Install dev things
-brew install eck
-brew install go
-brew install node
+brew "go"
+brew "node"
 
+cask_args appdir: "/Applications"
 # Install Apps
-brew cask install google-chrome
-brew cask install alfred
-brew cask install iterm2
-brew cask install visual-studio-code
-brew cask install spotify
-brew cask install slack
-brew cask install 1password-cli
-brew cask install simplenote
+cask "google-chrome"
+cask "alfred"
+cask "iterm2"
+cask "visual-studio-code"
+cask "spotify"
+cask "slack"
+cask "simplenote"
+cask "1password"
+cask "fantastical"
