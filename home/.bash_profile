@@ -20,7 +20,7 @@ fi
 
 #go
 export GOPATH=~/go
-export GOROOT=/usr/local/opt/go/libexec
+export GOROOT=/usr/local/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
@@ -51,7 +51,10 @@ export PS1="\n\[\033[00;32m\]\w\[\033[00m\]\[$MAGENTA\]\$(parse_git_branch)\[$WH
 
 
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/andreagaither/.composer/vendor/bin:/Users/andreagaither/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin
+
+
+#go
 export GOPATH=~/go
-export GOROOT=/usr/local/opt/go/libexec
+export GOROOT=/usr/local/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
