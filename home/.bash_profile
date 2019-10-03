@@ -47,7 +47,7 @@ function parse_git_branch {
 export GIT_PS1_SHOWDIRTYSTATE='yes'
 export GIT_PS1_SHOWSTASHSTATE='yes'
 export GIT_PS1_SHOWUNTRACKEDFILES='yes'
-export PS1="\n\[\033[00;32m\]\w\[\033[00m\]\[$MAGENTA\]\$(parse_git_branch)\[$WHITE\]🐌 🐙 🦖\n➝  "
+export PS1="\n\[\033[00;32m\]\w\[\033[00m\]\[$MAGENTA\]\$(parse_git_branch)\[$WHITE\] 🦁 🥑 🗺 \n➝  "
 
 
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/local/mysql/bin:/Users/andreagaither/.composer/vendor/bin:/Users/andreagaither/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/mysql/bin
