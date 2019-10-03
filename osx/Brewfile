@@ -8,12 +8,10 @@ brew "node"
 
 cask_args appdir: "/Applications"
 # Install Apps
-cask "google-chrome"
-cask "alfred"
 cask "iterm2"
+cask "firefox"
 cask "visual-studio-code"
 cask "spotify"
 cask "slack"
 cask "simplenote"
 cask "1password"
-cask "fantastical"
